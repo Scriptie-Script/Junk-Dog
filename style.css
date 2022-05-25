@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+body {
+    background-color: #2D2D34;
+}
+
+.logo_img {
+    position: absolute;
+    top: 5%; left: 8%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+}
+
+.navbar_holder {
+    float: right;
+    margin: 15px 10px;
+    cursor: default;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.list_items {
+    display: inline-block;
+}
+
+.item_link-a,.item_link {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 6px 12px;
+    font-size: 20px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.item_link-a ,.item_link:hover {
+    background-color: white;
+    color: #2D2D34;
+    border-radius: 2px;
+}
+
+.item_link:active {
+    opacity: 0.8;
+}
+
+.title {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    font-size: 30px;
+    color: #F1E4E8;
+    animation: fadeIn linear 0.5s;
+    -webkit-animation: fadeIn linear 0.5s;
+    -moz-animation: fadeIn linear 0.5s;
+    -o-animation: fadeIn linear 0.5s;
+    -ms-animation: fadeIn linear 0.5s;
+    animation: fadeOut linear 0.5s;
+    -webkit-animation: fadeOut linear 0.5s;
+    -moz-animation: fadeOut linear 0.5s;
+    -o-animation: fadeOut linear 0.5s;
+    -ms-animation: fadeOut linear 0.5s;
+}
+
+.about {
+    position: absolute;
+    top: 30%; left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    font-size: 30px;
+    color: #F1E4E8;
+    animation: fadeIn linear 0.5s;
+    -webkit-animation: fadeIn linear 0.5s;
+    -moz-animation: fadeIn linear 0.5s;
+    -o-animation: fadeIn linear 0.5s;
+    -ms-animation: fadeIn linear 0.5s;
+    animation: fadeOut linear 0.5s;
+    -webkit-animation: fadeOut linear 0.5s;
+    -moz-animation: fadeOut linear 0.5s;
+    -o-animation: fadeOut linear 0.5s;
+    -ms-animation: fadeOut linear 0.5s;
+
+}
+
+.about-text {
+    position: absolute;
+    top: 45%; left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 400;
+    width: 35%;
+    font-size: 18px;
+    color: #F1E4E8;
+    animation: fadeIn linear 0.5s;
+    -webkit-animation: fadeIn linear 0.5s;
+    -moz-animation: fadeIn linear 0.5s;
+    -o-animation: fadeIn linear 0.5s;
+    -ms-animation: fadeIn linear 0.5s;
+    animation: fadeOut linear 0.5s;
+    -webkit-animation: fadeOut linear 0.5s;
+    -moz-animation: fadeOut linear 0.5s;
+    -o-animation: fadeOut linear 0.5s;
+    -ms-animation: fadeOut linear 0.5s;
+}
+
+
+.services {
+    position: absolute;
+    top: 30%; left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    font-size: 30px;
+    color: #F1E4E8;
+    animation: fadeIn linear 0.5s;
+    -webkit-animation: fadeIn linear 0.5s;
+    -moz-animation: fadeIn linear 0.5s;
+    -o-animation: fadeIn linear 0.5s;
+    -ms-animation: fadeIn linear 0.5s;
+    animation: fadeOut linear 0.5s;
+    -webkit-animation: fadeOut linear 0.5s;
+    -moz-animation: fadeOut linear 0.5s;
+    -o-animation: fadeOut linear 0.5s;
+    -ms-animation: fadeOut linear 0.5s;
+
+}
+
+.services-text {
+    position: absolute;
+    top: 41%; left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 400;
+    width: 38%;
+    font-size: 18px;
+    color: #F1E4E8;
+    animation: fadeIn linear 0.5s;
+    -webkit-animation: fadeIn linear 0.5s;
+    -moz-animation: fadeIn linear 0.5s;
+    -o-animation: fadeIn linear 0.5s;
+    -ms-animation: fadeIn linear 0.5s;
+    animation: fadeOut linear 0.5s;
+    -webkit-animation: fadeOut linear 0.5s;
+    -moz-animation: fadeOut linear 0.5s;
+    -o-animation: fadeOut linear 0.5s;
+    -ms-animation: fadeOut linear 0.5s;
+}
+
+
+.contact {
+    position: absolute;
+    top: 30%; left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    font-size: 30px;
+    color: #F1E4E8;
+    animation: fadeIn linear 0.5s;
+    -webkit-animation: fadeIn linear 0.5s;
+    -moz-animation: fadeIn linear 0.5s;
+    -o-animation: fadeIn linear 0.5s;
+    -ms-animation: fadeIn linear 0.5s;
+    animation: fadeOut linear 0.5s;
+    -webkit-animation: fadeOut linear 0.5s;
+    -moz-animation: fadeOut linear 0.5s;
+    -o-animation: fadeOut linear 0.5s;
+    -ms-animation: fadeOut linear 0.5s;
+
+}
+
+.contact-text {
+    position: absolute;
+    top: 39%; left: 55%;
+    transform: translate(-50%, -50%);
+    font-weight: 400;
+    width: 50%;
+    font-size: 18px;
+    color: #F1E4E8;
+    animation: fadeIn linear 0.5s;
+    -webkit-animation: fadeIn linear 0.5s;
+    -moz-animation: fadeIn linear 0.5s;
+    -o-animation: fadeIn linear 0.5s;
+    -ms-animation: fadeIn linear 0.5s;
+    animation: fadeOut linear 0.5s;
+    -webkit-animation: fadeOut linear 0.5s;
+    -moz-animation: fadeOut linear 0.5s;
+    -o-animation: fadeOut linear 0.5s;
+    -ms-animation: fadeOut linear 0.5s;
+}
+
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeOut {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+  @keyframes fadeOut {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeOut {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeOut {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeOut {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeOut {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
